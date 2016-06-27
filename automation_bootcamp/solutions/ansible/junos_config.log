@@ -1,0 +1,28 @@
+2016-06-26 22:40:49,606:CONFIG:10.11.12.2:connecting to host: netconf@10.11.12.2:830
+2016-06-26 22:40:49,619:CONFIG:10.11.12.1:connecting to host: netconf@10.11.12.1:830
+2016-06-26 22:40:49,620:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-06-26 22:40:49,631:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-06-26 22:40:50,105:ncclient.transport.ssh:Authentication (password) successful!
+2016-06-26 22:40:50,147:ncclient.transport.ssh:Authentication (password) successful!
+2016-06-26 22:40:50,339:ncclient.transport.session:initialized: session-id=2178 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-06-26 22:40:50,339:CONFIG:10.11.12.2:Getting config with options={'format': 'text'}
+2016-06-26 22:40:50,342:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-26 22:40:50,391:ncclient.transport.session:initialized: session-id=2204 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-06-26 22:40:50,391:CONFIG:10.11.12.1:Getting config with options={'format': 'text'}
+2016-06-26 22:40:50,395:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-26 22:40:50,467:ncclient.operations.rpc:Requesting 'CloseSession'
+2016-06-26 22:40:50,469:ncclient.operations.rpc:Requesting 'CloseSession'
+2016-06-26 23:47:26,100:CONFIG:10.11.12.1:connecting to host: netconf@10.11.12.1:830
+2016-06-26 23:47:26,102:CONFIG:10.11.12.2:connecting to host: netconf@10.11.12.2:830
+2016-06-26 23:47:26,113:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-06-26 23:47:26,115:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-06-26 23:47:26,818:ncclient.transport.ssh:Authentication (password) successful!
+2016-06-26 23:47:26,914:ncclient.transport.ssh:Authentication (password) successful!
+2016-06-26 23:47:27,139:ncclient.transport.session:initialized: session-id=2959 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-06-26 23:47:27,140:CONFIG:10.11.12.1:Getting config with options={'format': 'text'}
+2016-06-26 23:47:27,146:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-26 23:47:27,174:ncclient.transport.session:initialized: session-id=2933 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-06-26 23:47:27,175:CONFIG:10.11.12.2:Getting config with options={'format': 'text'}
+2016-06-26 23:47:27,179:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-26 23:47:27,272:ncclient.operations.rpc:Requesting 'CloseSession'
+2016-06-26 23:47:27,306:ncclient.operations.rpc:Requesting 'CloseSession'
