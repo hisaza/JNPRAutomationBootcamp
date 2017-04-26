@@ -12,7 +12,7 @@ set interfaces lo0.0 family inet address 10.11.12.2/32
 set interfaces ge-0/0/1 unit 0 family mpls
 set security zones security-zone vpn host-inbound-traffic system-services all
 set security zones security-zone vpn host-inbound-traffic protocols all
-set security zones security-zone vpn interfaces ge-0/0/2.0
+set security zones security-zone vpn interfaces ge-0/0/3.0
 set security policies from-zone trust to-zone trust policy all match source-address any
 set security policies from-zone trust to-zone trust policy all match destination-address any
 set security policies from-zone trust to-zone trust policy all match application any

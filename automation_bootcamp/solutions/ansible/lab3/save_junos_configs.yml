@@ -34,5 +34,5 @@
           host={{ inventory_hostname }}
           user={{ USERNAME }}
           passwd={{ DEVICE_PASSWORD }}
-          dest="{{ junos.facts.hostname }}-{{ ansible_date_time.iso8601 }}.conf"
+          dest="{{ junos.facts.hostname }}.conf"
           logfile="junos_config.log"

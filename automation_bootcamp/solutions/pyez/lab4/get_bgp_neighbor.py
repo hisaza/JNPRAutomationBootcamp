@@ -9,7 +9,7 @@ from jnpr.junos import Device
 from jnpr.junos.op.bgp import BGPNeighborTable
 import sys
 
-# Step 1.2
+# Step 1.7
 def main():
     """Simple main method to view custom BGP table."""
     routers = ['10.11.12.1', '10.11.12.2']

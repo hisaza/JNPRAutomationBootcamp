@@ -82,6 +82,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
                    nic_type: 'virtio',
                    virtualbox__intnet: "NetDevOps-Public"
     srx.vm.network "private_network",
+                   nic_type: 'virtio',
+                   virtualbox__intnet: "NetDevOps-Private"
+    srx.vm.network "private_network",
                    ip: "192.168.10.1",
                    nic_type: 'virtio',
                    virtualbox__intnet: "NetDevOps-Private"
@@ -113,12 +116,12 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
                    ip: "192.168.10.20",
                    virtualbox__intnet: "NetDevOps-Private"
     ndo.vm.synced_folder ".", "/vagrant", disabled: false
-
+  
     ndo.vm.provider "virtualbox" do |v|
         v.gui = false
         v.customize ["modifyvm", :id, "--memory", "512"]
     end
-
+  
     ndo.vm.provision "shell" do |s|
       s.path = "scripts/ndopri-setup-1.sh"
     end
@@ -134,7 +137,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
                    ip: "172.15.0.20",
                    virtualbox__intnet: "NetDevOps-StudentInternal-2"
     ndo.vm.synced_folder ".", "/vagrant", disabled: false
-
+  
     ndo.vm.provider "virtualbox" do |v|
         v.gui = false
         v.customize ["modifyvm", :id, "--memory", "512"]
