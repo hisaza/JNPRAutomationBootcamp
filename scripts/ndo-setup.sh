@@ -24,3 +24,14 @@ EOF
 sudo apt-get purge network-manager -y
 sudo ifdown eth1
 sudo ifup eth1
+
+
+sudo apt-get -y update
+sudo apt-get install -y build-essential
+sudo apt-get -y install python-pip python-dev build-essential 
+sudo pip install --upgrade pip
+sudo pip install --upgrade setuptools
+sudo pip install -U junos-ezn
+sudo pip install -U ansible==2.3.2
+sudo ansible-galaxy remove Juniper.junos
+sudo ansible-galaxy install Juniper.junos
